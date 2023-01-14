@@ -75,7 +75,7 @@ img {
 --------------------
 ------------------*/
 /*-----------------small device-----------------*/
-@media screen and (max-with: 576px) {
+@media screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -85,7 +85,9 @@ img {
     flex-direction: column;
     align-items: center;
   }
-  banner-title {
+  .banner-title {
+    font-weight: 700;
+    font-size: 35px;
     padding: 0px 0px;
   }
   .banner-info {
