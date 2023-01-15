@@ -69,11 +69,6 @@ li {
 img {
   width: 700px;
 }
-main {
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-}
 .container {
   padding: 50px 100px;
 }
@@ -113,12 +108,13 @@ main {
 /*------------second feature-------------*/
 .second-feature {
   display: flex;
-  gap: 30px;
+  gap: 60px;
 }
 .second-feature-image,
 .second-feature-img-img {
-  width: 408px;
+  width: 440px;
   border-radius: 10px;
+  position: relative;
 }
 .second-feature-title {
   font-weight: 700;
@@ -149,18 +145,19 @@ main {
   color: #727272;
 }
 .btn {
-  padding: 20px;
+  padding: 10px;
   border: 0;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #ff900e;
   font-weight: 700;
   font-size: 30px;
   color: white;
-  position: relative;
-  float: left;
+  position: absolute;
+  bottom: 20px;
+  right: 340px;
 }
 .text-size {
-  font-size: 18px;
+  font-size: 16px;
 }
 /*--------------------
 ---------------------
@@ -229,5 +226,7 @@ main {
   }
   .btn {
     padding: 10px;
+    bottom: -50px;
+    right: 80px;
   }
 }
