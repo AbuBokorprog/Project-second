@@ -176,7 +176,6 @@ img {
 }
 .service-info {
   padding: 10px 5px;
-  /*border-bottom: 1px solid palevioletred;*/
 }
 .service-container {
   display: flex;
@@ -277,10 +276,8 @@ img {
   margin: 20px 90px;
   font-size: 18px;
 }
-/*--------------------
----------------------
+/*-----------------
     media query
---------------------
 ------------------*/
 /*-----------------small device-----------------*/
 @media screen and (max-width: 576px) {
