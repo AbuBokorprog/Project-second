@@ -159,6 +159,24 @@ img {
 .text-size {
   font-size: 16px;
 }
+/*---------------
+      service
+---------------*/
+.service-info-div {
+  text-align: center;
+}
+.service-title {
+  font-weight: 700;
+  font-size: 45px;
+  padding: 10px 0;
+}
+.title-pink {
+  color: rgb(238, 77, 131);
+}
+.service-info {
+  padding: 10px 5px;
+  /*border-bottom: 1px solid palevioletred;*/
+}
 /*--------------------
 ---------------------
     media query
