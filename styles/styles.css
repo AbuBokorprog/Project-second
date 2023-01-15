@@ -177,6 +177,30 @@ img {
   padding: 10px 5px;
   /*border-bottom: 1px solid palevioletred;*/
 }
+.service-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+}
+.service-container-one {
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.service-logo {
+  width: 30px;
+  padding: 0 10px;
+}
+.service-container-title {
+  padding: 15px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.service-container-details {
+  font-weight: 400;
+  font-size: 18px;
+}
 /*--------------------
 ---------------------
     media query
@@ -246,5 +270,13 @@ img {
     padding: 10px;
     bottom: -50px;
     right: 80px;
+  }
+  .service-container {
+    flex-direction: column;
+  }
+  .service-title {
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px 16px;
   }
 }
