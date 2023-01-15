@@ -70,25 +70,26 @@ img {
   width: 700px;
 }
 .container {
-  padding: 50px 100px;
+  padding: 30px 100px;
 }
 .image {
   width: 200px;
   height: 200px;
   border-radius: 8px;
 }
+/*------------quick list-------------*/
 .feature-thumbnail {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 10px;
   row-gap: 10px;
+  padding: 0 70px;
 }
 .features {
   display: flex;
   gap: 30px;
 }
 .feature-details {
-  width: 537px;
 }
 .feature-title {
   padding-top: 80px;
@@ -105,7 +106,7 @@ img {
   color: #727272;
   padding: 10px 0;
 }
-/*------------second feature-------------*/
+/*------------feature love and enjoy-------------*/
 .second-feature {
   display: flex;
   gap: 60px;
@@ -226,7 +227,16 @@ img {
   border-radius: 8px;
 }
 .facts-div:hover {
-  transform: rotate(90deg);
+  transform: scale(1.5);
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  background-color: rgb(118, 243, 201);
+  color: white;
+}
+.facts-image:hover {
+  transform: rotate(0.5turn);
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
 }
 /*----------------
 ------------------
@@ -235,7 +245,6 @@ img {
 -----------------*/
 .sponsors-info {
   text-align: center;
-  padding: 20px;
 }
 .sponsors-title {
   font-weight: 700;
@@ -250,12 +259,12 @@ img {
 .sponsors-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  padding: 10px 50px;
+  padding: 10px 30px;
   column-gap: 40px;
 }
 .sponsors-img {
   width: 120px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 /*-------footer-------*/
@@ -297,7 +306,7 @@ img {
   .banner-banner,
   img {
     width: 90%;
-    padding-left: 30px;
+    padding-left: 38px;
   }
   .banner-banner {
     padding: 0;
@@ -306,7 +315,6 @@ img {
   .features {
     flex-direction: column;
     align-items: center;
-    width: 150px;
   }
   .feature-thumbnail {
     grid-template-columns: repeat(1, 1fr);
